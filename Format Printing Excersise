@@ -1,0 +1,12 @@
+formatter = "{} {} {} {} {} "
+
+print(formatter.format(1,2,3,4,1321321312))
+print(formatter.format('one','two','three','four', 'Made Up number'))
+print(formatter.format(True,False,False,True,False))
+print(formatter.format(formatter,formatter,formatter,formatter, formatter))
+print(formatter.format(
+    "Is it possible",
+    "That Jessica Pratt",
+    "Is quite possiblity",
+    "THe greatest artist to live ?",
+"yes, duh"))
