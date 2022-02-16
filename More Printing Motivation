@@ -1,0 +1,15 @@
+big_black_dogs = "\t I be spitting with these code."
+white_dogs = "Can you spitt these bars ???"
+purple_dog = "It's a joke \\ I \\ copywrite my code."
+
+fat_dog = """
+This is getting fun:
+\t* One day I'll get paid to code.
+\t* When that day comes.
+\t* I'll never worry about money again.\n\t* So keep going"""
+
+
+print(big_black_dogs)
+print(white_dogs)
+print(purple_dog)
+print(fat_dog)
