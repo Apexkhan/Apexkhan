@@ -1,0 +1,32 @@
+def add(a,b):
+    print(f"Adding {a} + {b}")
+    return a + b
+          
+def subtract(a,b):
+    print(f"Subtracting {a} -{b}")
+    return a - b
+          
+def multiply(a,b):
+          print(f"Multiplying {a} * {b}")
+          return a * b
+                
+def divide(a,b):
+           print(f"DIVIDING {a} /{b}")
+           return a/b
+                
+print("Let's do some math with the fucntions, I've created")
+                
+                
+                
+age= add(40, 6)
+height = subtract(933, 23)
+weight = multiply (2343,12)
+iq = divide(1456,3)
+                
+                
+print(f"Age: {age}, Height {height}, Weight: {weight}, IQ: {iq}")
+print("Here is a puzzle.")
+                
+what = add(age, subtract(height, multiply(weight,divide(iq,2))))
+                
+print("That becomes:", what, "Can you do it by hand?")
