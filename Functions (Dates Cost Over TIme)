@@ -1,0 +1,25 @@
+def AJ_dates(women,dates):
+    print(f"I met {women} women!")
+    print(f"I paid for {dates} dates !")
+    print("Man I can't believe I paid for this many dates!!!!")
+    print(" Man I need a loan ) :")
+    
+    
+print("Lets do some math to figure out how much money I wasted on these terrible dates:")
+
+AJ_dates(100,45)
+
+
+print("Or, I can try to do a better variable. Let's try this....")
+amount_women =20
+amount_dates = 60
+
+AJ_dates(amount_women, amount_dates)
+
+
+print("We can do some math inside of this too:")
+AJ_dates(100/50, 60-40)
+
+print("ANd we can combine the variables and do a little thing call math.")
+
+AJ_dates(amount_women +200,amount_dates + 100)
