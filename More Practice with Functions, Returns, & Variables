@@ -1,0 +1,44 @@
+print("Time to get giggy.")
+print("IF you\'d need to run\' through an escape pattern \\ like this:")
+print("\n New lines utilize n with slab... and \t tabs use t with slab.")
+      
+      
+poem = """ \t So this lovely woman who was intersted in me. 
+
+Can with a wierd logic, that I never experinced in my life. \n
+
+she told me that in order to become a master coder. \n\t\t I would need to pratice like a mad man. \n
+Figure that right."""
+      
+print("-------------")
+print(poem)
+print("IS all this space neccasary")
+      
+five = 10-2+3-6
+print(f"This should be five: {five}")
+
+def secret_formula(started):
+      hardwork = started*700
+      dedication = hardwork / 100000
+      blood_tears = dedication / .087
+      
+      return hardwork,dedication,blood_tears
+      
+start_point = 20000
+hardwork, dedication, blood_tears = secret_formula(start_point)
+      
+      
+print("With a starting point of: {}".format(start_point))
+      
+      
+print(f"We'd have to practice {hardwork} hardwork in hours {dedication} dedication in mins, and {blood_tears} blood,sweat,and tears in volumes.")
+      
+      
+start_point = start_point/100
+      
+print("We can also do that this way:")
+formula = secret_formula(start_point)
+print("We'd have {} championships, {} talent, and {} careers.".format(*formula))
+
+
+print("""\n THis is all gibberish but it helps identify how well I can read code. I'm getting better at this ( :""")
