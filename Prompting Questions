@@ -1,0 +1,10 @@
+print("How old were you when your first  kid when he was born?", end= ' ')
+age = input()
+
+print("How long in cm was you kid when born?", end= ' ')
+height = input()
+
+print("How much did you baby weight?", end = ' ')
+weight = input()
+
+print(f"So, you were {age} old when you had your first child. THe baby was {height} tall and weighed {weight}. Isn't python cool?")
