@@ -1,0 +1,17 @@
+kids = 30
+boys = 15
+girls = 15
+
+
+
+if kids > girls:
+    print('Get these kids out of my spot')
+    
+if boys*2 > girls:
+    print('Way too many sausage in this spot')
+    
+if kids < boys:
+    print('The world has too many guys')
+    
+if girls*2 +1 > kids:
+    print("Fuck these hoes")
