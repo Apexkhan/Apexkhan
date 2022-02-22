@@ -1,0 +1,23 @@
+i = 10
+facts = []
+
+
+while i < 13:
+    print(f"At the top i is {i}")
+    facts.append(i)
+    
+    
+    
+    i = i + 1
+    print("Numbers now: ", facts)
+    print(f"At the bottom i is {i}")
+    
+    
+    facts.append(i)
+    i = i -.5
+    
+    
+print("THe numbers: ")
+
+for fac in facts:
+    print(fac*2)
