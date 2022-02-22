@@ -1,0 +1,50 @@
+the_count = [7,9,22,43,67]
+
+students = [ 'Chris','Tiana','Forest','Danger','Roger']
+
+random = [1,'Texas',2, 'California', 521, 'Sotomayor']
+
+
+# THis first looop will run through the list
+
+for number in the_count:
+    print(f"THis is the count in the first variable set {number}")
+    
+for kids in students:
+    print(f" In Ms. Chavez class here favorite students {students}")
+    
+    
+#THis is how you mix list 
+
+for i in random:
+    print(f"I got {i}")
+    
+    
+for a in random:
+    print(f"I don't think i have {a}")
+    
+
+    
+#Heres how to build a list.
+rice = [ ]
+
+
+#Well do a quick count to 5.
+
+for a in range(0,5):
+    print(f"Adding {a} to this list.")
+    rice.append(a)
+    
+    
+for a in rice:
+    print(f"Rice was : {a}")
+    
+
+    
+    
+         
+    
+
+           
+            
+           
